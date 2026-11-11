@@ -1,0 +1,40 @@
+{
+  "name": "langchain-ccs",
+  "version": "1.0.0",
+  "description": "LangChain integration for CCS (Cryptographic Commitment Scheme) receipt verification",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": [
+    "langchain",
+    "ccs",
+    "verification",
+    "security",
+    "receipt",
+    "mcp",
+    "ed25519"
+  ],
+  "author": "Correctover",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "@langchain/core": "^0.3.0",
+    "ccs-verifier-mcp": "^1.0.1"
+  },
+  "peerDependencies": {
+    "langchain": "^0.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DSHCorrectover/langchain-ccs.git"
+  },
+  "homepage": "https://github.com/DSHCorrectover/langchain-ccs#readme",
+  "bugs": {
+    "url": "https://github.com/DSHCorrectover/langchain-ccs/issues"
+  }
+}
